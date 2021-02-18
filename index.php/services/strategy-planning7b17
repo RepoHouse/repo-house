@@ -2,7 +2,7 @@
 <!-- generator="Joomla! - Open Source Content Management" -->
 <?xml-stylesheet href="/investor/plugins/system/jce/css/content.css?ddf99b5e1db3ef55f453654674b9d574" type="text/css"?>
 <feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
-	<title type="text">Strategy Planning</title>
+	<title type="text">Strategic Planning</title>
 	<subtitle type="text">Joomla template</subtitle>
 	<link rel="alternate" type="text/html" href="https://demo.themeolio.com"/>
 	<id>https://demo.themeolio.com/investor/index.php/services/strategy-planning</id>

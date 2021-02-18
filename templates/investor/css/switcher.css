@@ -1,0 +1,120 @@
+﻿/* Styles Switcher
+====================================================================== */
+
+	#style-switcher span {
+		position: absolute;
+		right: -50px;
+		height: 50px;
+		width: 50px;
+		text-align: center;
+		line-height: 49px;
+		cursor: pointer;
+		font-size: 24px;
+		color: #eee;
+		border-radius: 0 0 0 0;
+		background: #1a1d24;
+		top: 0px;
+		z-index: 99;
+	}
+
+	#style-switcher {
+		background: #1a1d24;
+		width: 199px;
+		position: absolute;
+		top: 165px;
+		z-index: 99;		
+		left: -200px;
+		border-left: 0;
+		border-top: 0;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	}
+
+	#style-switcher h3 {
+		margin: 0 0 -2px 1px;
+		text-align: center;	
+		color: #eee;
+		outline: none;
+		font-size: 13px;
+		font-weight: 500;
+		letter-spacing: 0;
+	}
+	
+	#style-switcher div {
+		padding: 7px 20px 10px 20px;
+		background-color: #1a1d24;
+	}
+	
+	#style-switcher h2 {
+		background-color: transparent;
+		color: #eee;
+		font-weight: 700;
+		font-size: 20px;
+		padding: 0px 0px 3px;
+        text-align: center;
+		margin-top: 12px;    
+		margin-bottom: 12px;  
+		letter-spacing: -1px;  
+	}
+	
+	#style-switcher h2:after { 
+		display: none;
+	}
+		
+	.colors {
+		list-style:none;
+		margin: 10px 0px 10px -20px;
+		overflow: hidden;
+	}
+	
+	.colors li {
+		float:left;
+		margin: 3px 2px 0px;
+		padding: 2px;
+		border: 1px solid #3d3d3d;
+	}
+	
+	.colors li a {
+		display: block;
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
+		border-radius: 2px;
+		
+	} 
+	.colors li a:active{
+		box-shadow:0 3px 3px rgba(0, 0, 0, 0.5) inset;
+	}
+	
+	.layout-style select,
+	.header-style select {
+		width: 140px;
+		padding: 5px;
+		color: #29282d;
+		cursor: pointer;
+		border-radius: 2px;
+		font-size: 13px;
+		margin: 10px 0 20px 10px;
+		border: 1px solid #f1f1f1;
+		box-shadow: none;	
+	}
+	
+	.layout-style,
+	.header-style { padding: 0 !important; }
+	
+	.orange			{ background: #E23826; }
+	.green		  	{ background: #227a40; }
+	.yellow	    	{ background: #e89613; }	
+	.turquiose      { background: #078169; }
+	.brown    	    { background: #A15547; }	
+	.blue			{ background: #4353ff; }	
+
+	.bg1 { background-image: url("../images/bg/bg_1.png"); }
+	.bg2 { background-image: url("../images/bg/bg_2.png"); }	
+	.bg3 { background-image: url("../images/bg/bg_3.png"); }
+	.bg4 { background-image: url("../images/bg/bg_4.png"); }
+	.bg5 { background-image: url("../images/bg/bg_5.png"); }
+	.bg6 { background-image: url("../images/bg/bg_6.png"); }
+	
+	
+	@media only screen and (max-width: 1023px) { #style-switcher { display: none; } }
+	   

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/investor/plugins/system/jce/css/content.css?ddf99b5e1db3ef55f453654674b9d574" type="text/css"?>
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">404 Page</title>
+	<subtitle type="text">Joomla template</subtitle>
+	<link rel="alternate" type="text/html" href="https://demo.themeolio.com"/>
+	<id>https://demo.themeolio.com/investor/index.php/pages/404-page</id>
+	<updated>2021-02-16T19:54:11+00:00</updated>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="https://demo.themeolio.com/investor/index.php/pages/404-page?format=feed&amp;type=atom"/>
+</feed>
